@@ -1,19 +1,33 @@
+html{
+    scroll-behavior: smooth;
+}
 html, body {
     margin: 0;
     padding: 0;
-    width: 100%;
+    width: 100%;    
 }
 
 body{
-    font-family: sans-serif;    
+    font-family: sans-serif;   
 }
 
+.scrollNav-active {
+
+    color: red;
+  
+  }
 header{
-    width: 100%;
+    /* width: 100%;
     height: 100vh;
     background: url(../img/computer-background2.jpg) no-repeat ;
-    background-size: cover;
+    background-size: cover; */
 
+}
+
+content, static {
+    width: 100%;
+    height: 100vh;
+    background-size: cover;
 }
 .parallax {
     /* The image used */
@@ -35,7 +49,42 @@ header{
     line-height: 30px;
     text-align: justify;    
 }
+  #section1 {
+    width: 100%;
+    height: 100vh;
+    padding-top: 5%;
+    background-size: cover;
+    background-color: cyan;
+    top:10%
+  }
 
+  #section2 {
+    width: 100%;
+    height: 100vh;
+    padding-top: 5%;
+    background-size: cover;
+    background-color: rgb(73, 88, 88);
+    top:10%
+  }
+
+  #section3 {
+    width: 100%;
+    height: 100vh;
+    padding-top: 5%;
+    background-size: cover;
+    background-color: lavender;
+    top:10%
+  }
+
+  #section4 {
+    width: 100%;
+    height: 100vh;
+    padding-top: 5%;
+    background-size: cover;
+    background-color: steelblue;
+    top:10%
+  }
+  
 .logo{
     position: fixed;
     float: left;
